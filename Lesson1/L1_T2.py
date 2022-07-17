@@ -7,5 +7,5 @@ hour = user_seconds // 3600
 remainder = user_seconds - hour*3600
 minutes = remainder//60
 seconds = remainder - minutes*60
-print('%02d:%02d:%02d' % (hour, minutes, seconds))
+print(f'{hour:02}:{minutes:02}:{seconds:02}')
 
